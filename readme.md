@@ -43,7 +43,7 @@ curl localhost:8000 -X POST -H "Content-Type: application/json" -d @-
 
 ### POST multipart
 
-```
+```bash
 curl localhost:8000 \
     --trace-ascii /dev/stdout \
     -X POST \
