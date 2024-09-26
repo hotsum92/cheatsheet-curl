@@ -54,6 +54,6 @@ curl localhost:8000 \
 ### gzip encoding
 
 ```bash
-gzip -c ./data/sample.json |
+gzip -c ./data.json |
 curl -X POST --data-binary @- -H "Content-Encoding: gzip" -H "Content-Type: application/json" localhost:8000
 ```
